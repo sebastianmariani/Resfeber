@@ -1,0 +1,551 @@
+body{
+    margin: 0px 0px;
+    font-family:'Amatic SC', cursive ,Arial, Helvetica, sans-serif;
+    background-color:#e7eaee ;
+}
+
+/* Header part  */
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/globe.jpg");
+    background-size: cover;
+}
+
+.topPart h1 {
+    font-size: 200px;
+    margin-bottom: 0px;
+    color:rgb(213, 191, 142);
+    text-shadow:5px 10px 6px black;
+}
+
+.topPart h3 {
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.topPart button {
+    padding: 20px 60px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+/* Slides part */
+
+.withYou h2 {
+    margin: 0px 0px;
+    padding: 150px 0px;
+    text-align: center;
+    font-size: 12em;
+}
+
+ .slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .slide img {
+     width: 50%;
+ }
+
+ .mountain {
+     background-color: rgb(109, 152, 171);
+ }
+
+ .mountain h3{
+    font-size: 11em;
+    color: white;
+    text-align: center;
+ }
+
+ .jungle {
+    background-color: rgb(145, 202, 153);
+ }
+
+ .jungle h3 {
+     margin-left:10%;
+     font-size: 11em;
+     color: white;
+ }
+
+ .beach {
+    background-color: rgb(239, 194, 139);
+ }
+
+.beach h3 {
+     margin-right: 12%;
+     font-size: 11em;
+     color: white;
+ } 
+
+ /* Services Part */
+
+ .services {
+     background-color: #e7eaee;
+     display: flex;
+     padding-top: 100px;
+     padding-bottom: 50px;
+     justify-content: space-around;
+ }
+
+ .service {
+     text-align: center;
+ }
+
+ .service img {
+     width: 18em;
+ }
+
+ .services h3 {
+     font-size: 90px;
+ }
+
+ .startNow {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .startNow h2 {
+     font-size: 10em;
+     margin-bottom: 0;
+ }
+
+ .startNow h3 {
+     margin-top: 0;
+     font-size: 6em;
+ }
+
+ .cards {
+     display: flex;
+     padding-bottom: 300px;
+ }
+
+ .sampleTrip {
+     margin: 0 3em;
+     overflow: hidden;
+     border-radius: 30px;
+     box-shadow:2px 2px 20px black;
+     background-color: white;
+ }
+
+ #userIcon {
+     float: left;
+     height: 100px;
+     width:auto;
+     margin: 30px;
+     
+ }
+
+ .sampleTrip h5 {
+     font-size: 60px;
+     margin-bottom: 0px;
+     margin-top:40px;
+ }
+ 
+ .sampleTrip p {
+     font-size: 40px;
+     text-align: center;
+ }
+ 
+ .sampleTrip img {
+     width: 700px;
+ }
+
+ .footer {
+     background-color:#012e3d;
+     color: #8a99ad;
+ }
+
+ .info {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+
+ .infoParts {
+     display: flex;
+     flex-direction: column; 
+     margin-bottom: 90px;
+ }
+
+ .infoParts h4 {
+     color: white;
+     font-size: 90px;
+     margin-bottom: 30px;
+     margin-top: 50px;
+ }
+
+ a {
+    font-size: 50px;
+    margin: 10px;
+    text-decoration: none;
+    color: #8a99ad;
+ }
+
+ .infoParts img {
+     width: 70px;
+     margin: 0px 30px;
+     margin-bottom: 40px;
+ }
+
+ hr {
+     color: #8a99ad;
+     width: 85%;
+ }
+
+ .end {
+     margin-left: 7.5%;
+     padding-bottom: 60px;
+ }
+
+ .end h4 {
+     font-size: 70px;
+     color: white;
+     margin-bottom: 0px;
+ }
+
+ .end img {
+  width: 50px;  
+ }
+
+ .end p {
+     font-size: 40px;
+     margin-right: 7.5%;
+ }
+
+ /* Different Screens sizes */
+
+@media screen and (max-width:2000px) {
+    .withYou h2 {
+        margin: 0px 0px;
+        padding: 50px 0px;
+        text-align: center;
+        font-size: 8em;
+    }
+    .mountain h3{
+        font-size: 5em;
+        color: white;
+        text-align: center;
+        margin-right:5%;
+     }
+     .jungle h3 {
+        margin-left:13%;
+        font-size:5em;
+        color: white;
+    }
+    .beach h3 {
+        margin-right: 15%;
+        font-size: 5em;
+        color: white;
+    } 
+    .service img {
+        width: 7em;
+    }
+   
+    .services h3 {
+        font-size: 3em;
+    }
+    .startNow h2 {
+        font-size: 5em;
+        margin-bottom: 0;
+    }
+   
+    .startNow h3 {
+        margin-top: 0;
+        font-size: 3em;
+    }
+    .cards {
+        display: flex;
+        padding-bottom: 150px;
+    }
+    .sampleTrip {
+        margin: 0 1em;
+        border-radius: 30px;
+        box-shadow:2px 2px 20px black;
+        background-color: white;
+    }
+   
+    #userIcon {
+        float: left;
+        height: 60px;
+        width:auto;
+        margin: 30px;
+        
+    }
+   
+    .sampleTrip h5 {
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top:40px;
+    }
+    
+    .sampleTrip p {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .sampleTrip img {
+        width: 400px;
+    }
+    .infoParts h4 {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+   
+    a {
+       font-size: 25px;
+       margin: 10px;
+       text-decoration: none;
+       color: #8a99ad;
+    }
+   
+    .infoParts img {
+        width: 20px;
+        margin: 0px 30px;
+        margin-bottom: 40px;
+    }
+    .end h4 {
+        font-size: 40px;
+        color: white;
+        margin-bottom: 0px;
+    }
+   
+    .end img {
+     width: 30px;  
+    }
+   
+    .end p {
+        font-size: 25px;
+        margin-right: 7.5%;
+    }
+}
+
+@media screen and (max-width:1290px) {
+    .cards {
+        display:block;
+        padding-bottom: 150px;
+        margin-top: 30px;
+    }
+    .sampleTrip {
+        margin: 0 1em;
+        border-radius: 30px;
+        box-shadow:2px 2px 20px black;
+        background-color: white;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .mountain h3{
+        font-size: 3em;
+        color: white;
+        text-align: center;
+        margin-right:8%;
+     }
+     .jungle h3 {
+        margin-left:15%;
+        font-size:3em;
+        color: white;
+    }
+    .beach h3 {
+        margin-right: 17%;
+        font-size: 3em;
+        color: white;
+    } 
+    .service img {
+        width: 5em;
+    }
+   
+    .services h3 {
+        font-size: 2em;
+    }
+    .startNow h2 {
+        font-size: 3em;
+        margin-bottom: 0;
+    }
+   
+    .startNow h3 {
+        margin-top: 0;
+        font-size: 2em;
+        margin-top: 30px;
+    }
+    .withYou h2 {
+        margin: 0px 0px;
+        padding: 50px 0px;
+        text-align: center;
+        font-size: 5em;
+    }
+}
+@media screen and (max-width:850px) {
+    .mountain h3{
+        font-size: 2em;
+        color: white;
+        text-align: center;
+        margin-right:10%;
+     }
+     .jungle h3 {
+        margin-left:15%;
+        font-size:2em;
+        color: white;
+    }
+    .beach h3 {
+        margin-right: 17%;
+        font-size: 2em;
+        color: white;
+    } 
+}
+@media screen and (max-width:600px) {
+    .topPart h1 {
+    font-size: 120px;
+    margin-bottom: 0px;
+    color:rgb(213, 191, 142);
+    text-shadow:5px 10px 6px black;
+    }
+
+    .topPart h3 {
+        margin-top: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .topPart button {
+        padding: 20px 60px;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+    .withYou h2 {
+        margin: 0px 0px;
+        padding: 40px 0px;
+        text-align: center;
+        font-size: 3em;
+    }
+    .mountain h3{
+        font-size: 1.5em;
+        color: white;
+        text-align: center;
+        margin-right:2%;
+     }
+     .jungle h3 {
+        margin-left:10%;
+        font-size:1.5em;
+        color: white;
+    }
+    .beach h3 {
+        margin-right: 13%;
+        font-size: 1.5em;
+        color: white;
+    }
+    .services {
+        background-color: #e7eaee;
+        display: block;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    
+    }
+   
+    .service {
+        text-align: center;
+    }
+   
+    .service img {
+        width: 5em;
+    }
+   
+    .services h3 {
+        font-size: 30px;
+    }
+    .cards{
+        padding-bottom: 0px;
+    }
+
+    .startNow {
+        display: block;
+    }
+    .startNow h2 {
+        text-align: center;
+        font-size: 3em;
+    }
+   
+    .startNow h3 {
+        margin-top: 0;
+        font-size: 1.5em;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #userIcon {
+        float: left;
+        height: 40px;
+        width:auto;
+        margin: 20px;
+        
+    }
+   
+    .sampleTrip h5 {
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top:20px;
+    }
+    
+    .sampleTrip p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .info {
+        display: block;
+        text-align: center;
+    }
+   
+    .infoParts {
+        margin-bottom: 30px;
+    }
+   
+    .infoParts h4 {
+        color: white;
+        font-size:20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+   
+    a {
+       font-size: 15px;
+       margin: 0px;
+       text-decoration: none;
+       color: #8a99ad;
+    }
+   
+    .infoParts img {
+        width: 20px;
+        margin-bottom: 10px;
+        margin-left:auto ;
+        margin-right: auto;
+    }
+    .end {
+        padding-bottom: 60px;
+    }
+   
+    .end h4 {
+        font-size: 30px;
+        color: white;
+    }
+   
+    .end img {
+     width:30px;  
+    }
+   
+    .end p {
+        font-size: 15px;
+        margin-right: 7.5%;
+    }
+    
+}
+
