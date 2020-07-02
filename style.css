@@ -38,11 +38,18 @@ body{
 
 /* Slides part */
 
-.withYou h2 {
+.slideIn {
     margin: 0px 0px;
     padding: 150px 0px;
     text-align: center;
-    font-size: 12em;
+    font-size: 5em;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+    opacity: 0;
+}
+.appear {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
  .slide {
@@ -135,7 +142,18 @@ body{
      box-shadow:2px 2px 20px black;
      background-color: white;
  }
-
+ .sampleTrip:hover {
+     -webkit-animation: shake 1s ease-in-out 1s infinite alternate;
+ }
+ @-webkit-keyframes  shake {
+    from {
+        -webkit-transform: rotate(5deg);
+    }
+    to {
+        -webkit-transform: rotate(-5deg);
+        -webkit-transform-origin: center;
+    }
+ }
  #userIcon {
      float: left;
      height: 100px;
@@ -224,11 +242,11 @@ body{
  /* Different Screens sizes */
 
 @media screen and (max-width:2000px) {
-    .withYou h2 {
+    .slideIn{
         margin: 0px 0px;
-        padding: 50px 0px;
+        padding: 20px 0px;
         text-align: center;
-        font-size: 8em;
+        font-size: 4em;
     }
     .mountain h3{
         font-size: 5em;
@@ -378,11 +396,15 @@ body{
         font-size: 2em;
         margin-top: 30px;
     }
-    .withYou h2 {
+    .slideIn {
         margin: 0px 0px;
-        padding: 50px 0px;
         text-align: center;
-        font-size: 5em;
+        font-size: 3em;
+    }
+    .topPart button {
+        padding: 20px 20px;
+        border-radius: 20px;
+        font-size: 25px;
     }
 }
 @media screen and (max-width:850px) {
@@ -416,17 +438,11 @@ body{
         color: white;
         font-size: 30px;
     }
-
-    .topPart button {
-        padding: 20px 60px;
-        border-radius: 20px;
-        font-size: 25px;
-    }
-    .withYou h2 {
+    .slideIn {
         margin: 0px 0px;
-        padding: 40px 0px;
+        padding: 10px 0px;
         text-align: center;
-        font-size: 3em;
+        font-size: 2em;
     }
     .mountain h3{
         font-size: 1.5em;
