@@ -142,18 +142,6 @@ body{
      box-shadow:2px 2px 20px black;
      background-color: white;
  }
- .sampleTrip:hover {
-     -webkit-animation: shake 1s ease-in-out 1s infinite alternate;
- }
- @-webkit-keyframes  shake {
-    from {
-        -webkit-transform: rotate(5deg);
-    }
-    to {
-        -webkit-transform: rotate(-5deg);
-        -webkit-transform-origin: center;
-    }
- }
  #userIcon {
      float: left;
      height: 100px;
